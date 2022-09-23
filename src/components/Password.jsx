@@ -8,9 +8,13 @@ function Password() {
     <input type="password" name="password" id="password" placeholder='Escriba su contraseña'
     onChange={(e) =>{
         let clave = e.target.value
-        if (clave === '252525'){
-            console.log('ingresar')
-        }
+        console.log(clave)
+        
+            if (clave === '252525'){
+                console.log('ingresar')
+            } 
+        
+        
     }}/>
     </div>
     
